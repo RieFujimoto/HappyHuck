@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Hack</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick.css" rel="stylesheet" type="text/css">
+    <!--jQueryを動かすためのプラグイン-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.bgswitcher.js"></script>
+    <script src="particles.js"></script>
+    <script src="setting.js"></script>
+    <!--    <script src="slick.min.js"></script>-->
+    <script type="text/javascript" src="slick.min.js"></script>
+    <!--    レスポンシブ対応-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <!--    <link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" media="(max-width:800px)" href="mobile.css">
+
+</head>
+
+<body>
+
+    <div class="main-visual">
+        <nav class="menu">
+            <ul>
+                <li><a href="#contents1">Introduction</a></li>
+                <li><a href="#contents2">Courses</a></li>
+                <li><a href="#contents3">Images</a></li>
+                <li><a href="#contents4">Access</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1><img src="images/logo.png" alt="" width="900"></h1>
+        <br>
+        <h2>We are Web Designers.</h2>
+    </div>
+
+
+    <div class="container">
+        <div class="scroll-fade">
+            <div class="content" id="contents1">
+                <h1 class="top-title">Introduction</h1>
+                <div class="block1">
+                    <div class="box">
+                        <img class="img1" src="images/introduction_001.jpg" alt="" width="470">
+                    </div>
+                    <div class="box">
+                        <div class="text-box">
+                            <p>Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。
+                                <br>特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。
+                                <br>誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。</p><br>
+                            <a class="button1" href="#contents1">会員登録</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="box">
+                        <div class="text-box">
+                            <p>Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。
+                                <br>WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。
+                                <br>自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。</p><br>
+                            <a class="button2" href="#contents1">会員登録</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="img2" src="images/introduction_002.jpg" alt="" width="470">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content" id="contents2">
+
+            <h1 class="top-title">Courses</h1>
+
+            <div class="courseMapAll">
+                <div class="courseMapBlock">
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/html.png" alt="" width="100">
+                        </div>
+                        <p>HTMLコース</p>
+                        <a class="courseButton" id="course1" href="#contents2">このコースを受ける</a>
+                    </div>
+
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/css.png" alt="" width="100">
+                        </div>
+                        <p>CSSコース</p>
+                        <a class="courseButton" id="course2" href="#contents2">このコースを受ける</a>
+                    </div>
+
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/unity.png" alt="" width="100">
+                        </div>
+                        <p>Unityコース</p>
+                        <a class="courseButton" id="course3" href="#contents2">このコースを受ける</a>
+                    </div>
+
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/ruby.png" alt="" width="100">
+                        </div>
+                        <p>Rubyコース</p>
+                        <a class="courseButton" id="course4" href="#contents2">このコースを受ける</a>
+                    </div>
+                </div>
+
+                <div class="courseMapBlock">
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/js.png" alt="" width="100">
+                        </div>
+                        <p>JavaScriptコース</p>
+                        <a class="courseButton" id="course5" href="#contents2">このコースを受ける</a>
+                    </div>
+
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/swift.png" alt="" width="100">
+                        </div>
+                        <p>Swiftコース</p>
+                        <a class="courseButton" id="course6" href="#contents2">このコースを受ける</a>
+                    </div>
+
+                    <div class="courseBox">
+                        <div class="courseIcon">
+                            <img class="iconImage" src="images/go.png" alt="" width="100">
+                        </div>
+                        <p>Goコース</p>
+                        <a class="courseButton" id="course7" href="#contents2">このコースを受ける</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="particles"></div>
+
+        </div>
+
+        <div class="content" id="contents3">
+            <h1 class="top-title">Images</h1>
+
+            <ul class="slider">
+                <li><a href="#"><img src="images/hero.jpg" alt="image01" width="300"></a></li>
+                <li><a href="#"><img src="images/hero2.jpg" alt="image02" width="331"></a></li>
+                <li><a href="#"><img src="images/hero3.jpg" alt="image03" width="300"></a></li>
+                <li><a href="#"><img src="images//introduction_001.jpg" alt="image04" width="300"></a></li>
+                <li><a href="#"><img src="images//introduction_002.jpg" alt="image05" width="300"></a></li>
+            </ul>
+        </div>
+
+        <div class="content" id="contents4">
+            <h1 class="top-title">Access</h1>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871.017132140223!2d135.49166377278016!3d34.69789708235261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1569630680725!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+        <div id="footer">
+            <p>©️ 2019 Happy Hack Inc.</p>
+        </div>
+    </div>
+
+    <!--bgSwitcherの読み込み
+
+    <!-- ① 背景がふわっと変わる -->
+    <script>
+        jQuery(function($) {
+            $('.main-visual').bgSwitcher({
+                images: ['images/hero.jpg', 'images/hero2.jpg', 'images/hero3.jpg'],
+                interval: 5000,
+                loop: true,
+                shuffle: true,
+                effect: "fade", // fade,blind,clip,slide,drop,hide
+                duration: 1000,
+                easing: "swing" // linear,swing
+            });
+        });
+    </script>
+
+    <!-- ② 背景パーティクル -->
+    <script src="particles.min.js"></script>
+    <script src="setting.js"></script>
+
+    <!--③スライドショー-->
+    <script>
+        $('.slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: false,
+            dots: true,
+            arrows: true
+        });
+    </script>
+
+    <!--④ふわっと-->
+    <script>
+        $(function() {
+            var effect_pos = 100; // 画面下からどの位置でフェードさせるか(px)
+            var effect_move = 50; // どのぐらい要素を動かすか(px)
+            var effect_time = 800; // エフェクトの時間(ms) 1秒なら1000
+
+            // フェードする前のcssを定義
+            $('.scroll-fade').css({
+                opacity: 0,
+                transform: 'translateY(' + effect_move + 'px)',
+                transition: effect_time + 'ms'
+            });
+
+            // スクロールまたはロードするたびに実行
+            $(window).on('scroll load', function() {
+                var scroll_top = $(this).scrollTop();
+                var scroll_btm = scroll_top + $(this).height();
+                effect_pos = scroll_btm - effect_pos;
+
+                // effect_posがthis_posを超えたとき、エフェクトが発動
+                $('.scroll-fade').each(function() {
+                    var this_pos = $(this).offset().top;
+                    if (effect_pos > this_pos) {
+                        $(this).css({
+                            opacity: 1,
+                            transform: 'translateY(0)'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
+</body></html>
